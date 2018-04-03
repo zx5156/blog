@@ -1,0 +1,132 @@
+
+			a, P, header
+			{
+				display: block;
+			}
+			
+			body
+			{
+			 margin: 0px;
+			 width: 100%;
+			 background:#53A8BC url(../img/bg.jpg) 50% top scroll no-repeat;color:#5d5d5d; 
+			}
+		    header
+		    {
+		    	margin: auto;
+		    	padding:40px 0px;
+		    	width: 1000px;
+		    }
+		    
+		    header h1 a 
+		    {
+		    	font-size: 36px;
+		    	text-shadow:#fff 1px 1px 1px;
+		    	text-decoration: none;
+		    	color: black;
+		    	font-family: 'Arizonia', cursive;
+		    }
+		     .p
+		    {
+		    	color: #FFFFFF;
+		    	text-shadow: #000 1px 1px 1px;
+		    	font-size: 20px;
+		    }
+		   
+		    .dh
+		    {
+		    	display:inline;
+		    	color: #FFFFFF;
+		    	font-size: 25px;
+		    	margin: 10px;
+		    	text-decoration: none;
+		    }
+		    #dh
+		    {
+		    	width: 1000px;
+		    	height: 50px;
+		    	margin-left: auto;
+		    	margin-right: auto;
+		    }
+		    img,li
+		    {
+		    	width: 250px;
+		    	height: 250px;
+		    	display:inline;
+		    	
+		    }
+		    
+		    .img1
+		    {
+		    	float: left;
+		    	margin:40px;
+		    	border-radius:20%; overflow:hidden;
+		    	-webkit-transition:width 10s, height 10s, -webkit-transform 2s;
+		    	transition-timing-function:ease-out;
+		    	animation: myimg1 10s;
+		    	
+		    }
+		   @keyframes myimg1
+			{
+				0%   {-webkit-transform:rotate(300deg);}
+				25%  {-webkit-transform:rotate(30deg);}
+				50%  {-webkit-transform:rotate(301deg);}
+				75%  {-webkit-transform:rotate(30deg);}
+				100% {-webkit-transform:rotate(300deg);}
+			}
+		    img:hover
+		    {
+		    	-webkit-transform:rotate(360deg);
+		    }
+		    #div1
+		    {
+		      width: 1200px;
+		      height: 300px;
+		      margin-left:auto;
+		      margin-right: auto;	
+		    }
+		    
+		    .nr
+		    {
+		     color: #FFFFFF;
+		     background-color: #73B6C6;
+		     margin: 40px;
+		     margin-left: auto;
+		     margin-right: auto;
+		     -webkit-border-radius: 20px;
+		     width: 1000px;
+		     height: 500px;
+		    }
+		    h2
+		    {
+		    	color: #FFF;
+                line-height: 40px;
+                height: 40px;
+                font-size: 32px;
+                font-family: 'Arizonia', cursive;
+                padding-left: 40px;
+		    }
+		   .img
+		   {
+		   	display: block;
+		   	 float: left;
+		   	margin-left: 0px;
+		   	border:double;
+		   }
+		   .a
+		   {
+
+		   	padding-left: 320px;
+		   	font-size: 30px;
+		   	text-decoration: none;
+		   	color: aliceblue;
+		   	font-family: 'Arizonia', cursive;
+		   }
+		    .a
+		    {
+		    	padding-left:350px;
+		    }
+		    
+		    
+		   
+		    
+	
